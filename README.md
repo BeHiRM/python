@@ -1,6 +1,6 @@
 hello 
      programing in python book   https://introcs.cs.princeton.edu/python/code/  
- that link can be use all python library use in this book and All questions, problems and exercises raised in the book are written in full
+ that link can be use all python library use in this book and All questions, problems and exercises raised in the book are written in full.
  this files write or copy from
 (stdio.py	stddraw.py	stdaudio.py	stdrandom.py	stdarray.py	stdstats.py	color.py	picture.py	instream.py	outstream.py  site and made .py)
 and all of them copy folder project and then you can use in your apps write 
