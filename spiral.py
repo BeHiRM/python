@@ -3,7 +3,7 @@ import sys
 import stddraw
 from turtle import Turtle
 
-#-----------------------------------------------------------------------
+# -----------------------------------------------------------------------
 
 # Accept command-line arguments n (an integer specifying a number
 # of sides), wraps (an integer specifying a wrap count), and decay
@@ -26,8 +26,8 @@ for i in range(wraps * n):
     turtle.goForward(step)
     turtle.turnLeft(angle)
 stddraw.show()
-    
-#-----------------------------------------------------------------------
+
+# -----------------------------------------------------------------------
 
 # python spiral.py 3 1 1.0
 
