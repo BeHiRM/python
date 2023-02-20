@@ -30,14 +30,14 @@ for col in range(pic.width()):
         v = 0.0
 
         for i in range(n):
-            v += charges[i].potentialAt(x, y)    
-        v = (MAX_GRAY_SCALE / 2.0)  + (v / 2.0e10)
+            v += charges[i].potentialAt(x, y)
+        v = (MAX_GRAY_SCALE / 2.0) + (v / 2.0e10)
         if v < 0:
             grayScale = 0
         elif v > MAX_GRAY_SCALE:
             grayScale = MAX_GRAY_SCALE
         else:
-            grayScale = int(v)            
+            grayScale = int(v)
         color = Color(grayScale, grayScale, grayScale)
         pic.set(col, pic.height()-1-row, color)
 
